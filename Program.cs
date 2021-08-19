@@ -10,6 +10,22 @@ namespace Temperature_Units_Converter
         //mainly call all the funcions here
         static void Main(string[] args)
         {
+            Console.WriteLine(" /__  ___/                                                                                      ");
+            Console.WriteLine("   / /   ___      _   __      ___      ___      __      ___    __  ___           __      ___    ");
+            Console.WriteLine("  / /  //___) ) // ) )  ) ) //   ) ) //___) ) //  ) ) //   ) )  / /   //   / / //  ) ) //___) ) ");
+            Console.WriteLine(" / /  //       // / /  / / //___/ / //       //      //   / /  / /   //   / / //      //        ");
+            Console.WriteLine("/ /  ((____   // / /  / / //       ((____   //      ((___( (  / /   ((___( ( //      ((____     ");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("    //   ) )                                                                                    ");
+            Console.WriteLine("   //         ___       __              ___      __    __  ___  ___      __                     ");
+            Console.WriteLine("  //        //   ) ) //   ) ) ||  / / //___) ) //  ) )  / /   //___) ) //  ) )                  ");
+            Console.WriteLine(" //        //   / / //   / /  || / / //       //       / /   //       //                        ");
+            Console.WriteLine("((____/ / ((___/ / //   / /   ||/ / ((____   //       / /   ((____   //                         ");
+
+            Console.WriteLine();
+            Console.WriteLine();
+
             unitsIntArray = new int[2];
             string[] unitsArray = askForUnitType();
             analizeUnit(unitsArray);
