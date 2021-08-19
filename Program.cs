@@ -38,7 +38,8 @@ namespace Temperature_Units_Converter
         {
             Console.Write("What's the unit you want to convert? ");
             string unitToConvert = Console.ReadLine();
-            Console.WriteLine("To which unit you want to convert it? ");
+            Console.WriteLine();
+            Console.Write("To which unit you want to convert it? ");
             string unitToConvertInto = Console.ReadLine();
             string[] result = new string[2];
             result[0] = unitToConvert;
